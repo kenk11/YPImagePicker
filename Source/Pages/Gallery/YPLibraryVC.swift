@@ -98,7 +98,7 @@ public class YPLibraryVC: UIViewController, YPPermissionCheckable {
         }
         
         // Activate multiple selection when using `minNumberOfItems`
-        if YPConfig.library.minNumberOfItems > 1 {
+        if YPConfig.library.minNumberOfItems > 1 || YPConfig.library.maxNumberOfItems > 1 {
             multipleSelectionButtonTapped()
         }
     }
