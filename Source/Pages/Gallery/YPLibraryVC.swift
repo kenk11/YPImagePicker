@@ -138,14 +138,14 @@ public class YPLibraryVC: UIViewController, YPPermissionCheckable {
 
         if multipleSelectionEnabled {
             if selection.isEmpty {
-                let asset = mediaManager.fetchResult[currentlySelectedIndex]
-                selection = [
-                    YPLibrarySelection(index: currentlySelectedIndex,
-                                       cropRect: v.currentCropRect(),
-                                       scrollViewContentOffset: v.assetZoomableView!.contentOffset,
-                                       scrollViewZoomScale: v.assetZoomableView!.zoomScale,
-                                       assetIdentifier: asset.localIdentifier)
-                ]
+//                let asset = mediaManager.fetchResult[currentlySelectedIndex]
+//                selection = [
+//                    YPLibrarySelection(index: currentlySelectedIndex,
+//                                       cropRect: v.currentCropRect(),
+//                                       scrollViewContentOffset: v.assetZoomableView!.contentOffset,
+//                                       scrollViewZoomScale: v.assetZoomableView!.zoomScale,
+//                                       assetIdentifier: asset.localIdentifier)
+//                ]
             }
         } else {
             selection.removeAll()
