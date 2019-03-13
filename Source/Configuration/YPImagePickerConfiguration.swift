@@ -180,6 +180,9 @@ public struct YPConfigLibrary {
 
     /// Allow to skip the selections gallery when selecting the multiple media items. Defaults to false.
     public var skipSelectionsGallery = false
+    
+    /// Show Original only
+    public var onlyOriginal = false
 }
 
 /// Encapsulates video specific settings.
